@@ -91,9 +91,7 @@ class Moderation(commands.Cog):
 
         for word in filter:
             if message.content.count(word) > 0:
-                print('%s has cursed' % (message.author.name))
                 await message.channel.purge(limit=1)
-        await bot.process_commands(message)
 
         #errors
 
