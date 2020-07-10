@@ -11,7 +11,7 @@ This bot is very good because I say so
 * Cogs
 * Support Server
 * Invite link
-
+* Website in development
 
 ## Commands:
 
