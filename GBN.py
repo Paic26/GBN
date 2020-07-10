@@ -79,4 +79,4 @@ async def shutdown(ctx):
     await bot.close()
 
 
-bot.run('NzA5NDQyNTcyNzc0NTM5Mjk0.XwObVQ.gyKnsX9sBQo_WSxESXSYp5Fep0M')
+bot.run('Token')
