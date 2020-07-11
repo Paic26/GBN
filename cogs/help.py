@@ -98,7 +98,6 @@ class Help(commands.Cog):
 
         embed3.set_author(name="Management Commands", icon_url="https://www.canteach.ca/minecraft-pe/images/wheat.gif")
         embed3.add_field(name="Change_prefix", value="Use your favourite prefix", inline=False)
-        embed3.add_field(name="Dm", value="Dm an user using the bot", inline=False)
         embed3.add_field(name="Ping", value="Pong with latency", inline=False)
         embed3.add_field(name="Support", value="Support Server Invite Link", inline=False)
         embed3.add_field(name="Invite", value="Bot's Invite Link", inline=False)
