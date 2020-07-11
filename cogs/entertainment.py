@@ -7,6 +7,12 @@ import random
 from random import choice
 import json
 
+def get_prefix(client, message):
+    with open('./json/prefixes.json', 'r') as f:
+        prefixes = json.load(f)
+
+    return prefixes[str(message.guild.id)]
+
 s = requests.Session()
 s.headers.update({'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:46.0) Gecko/20100101 Firefox/46.0'})
 with open("./json/memes.json", "r") as f:
