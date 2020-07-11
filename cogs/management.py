@@ -102,12 +102,13 @@ class Management(commands.Cog):
 
     @commands.command()
     async def dm(self, ctx, user_id=None, *, args=None):
+        author = ctx.message.author
         if user_id != None and args != None:
             try:
                 target = await bot.fetch_user(user_id)
                 await target.send(args)
 
-                await ctx.channel.send("'" + args + "' sent to: " + target.name)
+                await author.send("'" + args + "' sent to: " + target.name)
 
             except:
                 await ctx.channel.send("Couldn't dm the given user.")
