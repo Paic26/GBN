@@ -12,7 +12,7 @@ This bot is very good because I say so
 * Support Server
 * Invite link
 * Website in development
-
+* 24/7 Online
 ## Commands:
 
 #### Management:
