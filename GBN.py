@@ -79,4 +79,4 @@ async def shutdown(ctx):
     await bot.close()
 
 
-bot.run('Token')
+bot.run('os.environ['DISCORD_TOKEN]')
