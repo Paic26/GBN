@@ -51,8 +51,8 @@ class Management(commands.Cog):
         embed.add_field(name="Bot Invite", value="[Bot Invite Link](https://bit.ly/3dBozNZ)")
         await ctx.send(embed=embed)
 
-    @commands.command()
-    async def invite(self, ctx):
+    @commands.command(aliases=['source_code', 'source'])
+    async def sourcecode(self, ctx):
         embed = discord.Embed(
 
             colour=discord.Colour.purple(),
