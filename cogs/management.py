@@ -51,6 +51,17 @@ class Management(commands.Cog):
         embed.add_field(name="Bot Invite", value="[Bot Invite Link](https://bit.ly/3dBozNZ)")
         await ctx.send(embed=embed)
 
+    @commands.command()
+    async def invite(self, ctx):
+        embed = discord.Embed(
+
+            colour=discord.Colour.purple(),
+            title="Bot Source Code!"
+        )
+        embed.add_field(name="For everyone to use", value="[Github](https://github.com/Paic26/GenericBotName/)")
+        await ctx.send(embed=embed)
+
+    
     @commands.command(aliases=["supportserver", "support_server", "help_server", "helpserver"])
     async def support(self, ctx):
         value = random.randint(0, 0xffffff)
