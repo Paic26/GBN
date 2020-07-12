@@ -100,6 +100,15 @@ class Management(commands.Cog):
 
         await ctx.send(f'Prefix changed to: {prefix}')
         
+        
+    @commands.command(aliases=["pm"])
+    async def dm(self, ctx, member: discord.Member, *, text):
+        await ctx.message.delete()
+        await member.send(f"{ctx.author} sent this dm:\n\n {text}")
+        print(f"{ctx.author} DMed {member}: {text}")        
+
+        
+        
 def setup(bot):
     bot.add_cog(Management(bot))
     print('Management Loaded')
