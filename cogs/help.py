@@ -46,6 +46,7 @@ class Help(commands.Cog):
         embed.add_field(name="Help_moderation", value="Gives all the moderation commands.", inline=False)
         embed.add_field(name="Help_management", value="Gives all the management commands.", inline=False)
         embed.add_field(name="Website", value="In development.", inline=False)
+        embed.add_field(name="Source Code", value="Github Link", inline=False)
         embed.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
 
         await ctx.send(embed=embed)
@@ -101,6 +102,7 @@ class Help(commands.Cog):
         embed3.add_field(name="Ping", value="Pong with latency", inline=False)
         embed3.add_field(name="Support", value="Support Server Invite Link", inline=False)
         embed3.add_field(name="Invite", value="Bot's Invite Link", inline=False)
+        embed3.add_field(name="Dm", value="Send a message to someone with the bot", inline=False)
         embed3.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
 
         await ctx.send(embed=embed3)
