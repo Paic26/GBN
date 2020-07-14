@@ -45,6 +45,7 @@ class Help(commands.Cog):
         embed.add_field(name="Help_fun", value="Gives all the entertainment commands.", inline=False)
         embed.add_field(name="Help_moderation", value="Gives all the moderation commands.", inline=False)
         embed.add_field(name="Help_management", value="Gives all the management commands.", inline=False)
+        embed.add_field(name="Emotes", value="Kiss, Pat, Hug, Slap", inline=False)
         embed.add_field(name="Website", value="In development.", inline=False)
         embed.add_field(name="Source Code", value="Github Link", inline=False)
         embed.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
@@ -117,10 +118,10 @@ class Help(commands.Cog):
         )
 
         emote.set_author(name="Emotes Commands", icon_url="https://www.canteach.ca/minecraft-pe/images/wheat.gif")
-        emote.add_field(name="Hug", value="\u200b", inline=False)
-        emote.add_field(name="Kiss", value="\u200b", inline=False)
-        emote.add_field(name="Slap", value="\u200b", inline=False)
-        emote.add_field(name="Pat", value="\u200b", inline=False)
+        emote.add_field(name="Hug", value="Hug someone", inline=False)
+        emote.add_field(name="Kiss", value="Kiss someone", inline=False)
+        emote.add_field(name="Slap", value="Slap someone", inline=False)
+        emote.add_field(name="Pat", value="Pat someone", inline=False)
         emote.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
 
         await ctx.send(embed=emote)
