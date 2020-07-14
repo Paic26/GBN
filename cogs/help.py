@@ -107,6 +107,24 @@ class Help(commands.Cog):
 
         await ctx.send(embed=embed3)
 
+        
+    @commands.command(aliases='emote'])
+    async def emotes(self, ctx):
+        value = random.randint(0, 0xffffff)
+        emotes = discord.Embed(
+            colour=value,
+            timestamp=datetime.datetime.utcnow()
+        )
+
+        emotes.set_author(name="Emotes Commands", icon_url="https://www.canteach.ca/minecraft-pe/images/wheat.gif")
+        emotes.add_field(name="Hug", value="\U200b", inline=False)
+        emotes.add_field(name="Kiss", value="\U200b", inline=False)
+        emotes.add_field(name="Slap", value="\U200b", inline=False)
+        emotes.add_field(name="Pat", value="\U200b", inline=False)
+        emotes.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
+
+        await ctx.send(embed=emotes)
+
 
 def setup(bot):
     bot.add_cog(Help(bot))
