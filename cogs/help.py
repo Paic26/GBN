@@ -117,10 +117,10 @@ class Help(commands.Cog):
         )
 
         emote.set_author(name="Emotes Commands", icon_url="https://www.canteach.ca/minecraft-pe/images/wheat.gif")
-        emote.add_field(name="Hug", value="\U200b", inline=False)
-        emote.add_field(name="Kiss", value="\U200b", inline=False)
-        emote.add_field(name="Slap", value="\U200b", inline=False)
-        emote.add_field(name="Pat", value="\U200b", inline=False)
+        emote.add_field(name="Hug", value="\u200b", inline=False)
+        emote.add_field(name="Kiss", value="\u200b", inline=False)
+        emote.add_field(name="Slap", value="\u200b", inline=False)
+        emote.add_field(name="Pat", value="\u200b", inline=False)
         emote.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
 
         await ctx.send(embed=emote)
