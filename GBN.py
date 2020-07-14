@@ -21,13 +21,13 @@ client.remove_command('help')
 
 #cogs
 @bot.command()
-@command.is_owner()
+@commands.is_owner()
 async def load(ctx, extension):
     bot.load_extension(f'cogs.{extension}')
     await ctx.send(f'{extension} loaded')
 
 @bot.command()
-@command.is_owner()
+@commands.is_owner()
 async def unload(ctx, extension):
     bot.unload_extension(f'cogs.{extension}')
     await ctx.send(f'{extension} unloaded')
