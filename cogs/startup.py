@@ -52,9 +52,10 @@ class Startup(commands.Cog):
         if not cog:
             # No cog, means we reload all cogs
             async with ctx.typing():
+                value = random.randint(0, 0xffffff)
                 embed = discord.Embed(
                     title="Reloading all cogs!",
-                    color=0x808080,
+                    color= value,
                     timestamp=ctx.message.created_at
                 )
                 for ext in os.listdir("./cogs/"):
