@@ -23,10 +23,12 @@ client.remove_command('help')
 @bot.command()
 async def load(ctx, extension):
     bot.load_extension(f'cogs.{extension}')
+    await ctx.send('{Extension} loaded')
 
 @bot.command()
 async def unload(ctx, extension):
     bot.unload_extension(f'cogs.{extension}')
+    await ctx.send('{Extension} unloaded')
 
 
 
