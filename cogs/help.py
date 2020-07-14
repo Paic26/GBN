@@ -108,7 +108,7 @@ class Help(commands.Cog):
         await ctx.send(embed=embed3)
 
         
-    @commands.command(aliases='emote'])
+    @commands.command(aliases=['emote'])
     async def emotes(self, ctx):
         value = random.randint(0, 0xffffff)
         emote = discord.Embed(
