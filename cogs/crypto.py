@@ -95,7 +95,7 @@ class Crypto(commands.Cog):
     async def on_ready(self):
         print('Crypto Loaded')
 
-    @commands.command()
+    @commands.command(aliases=['Bitcoin'])
     async def btc(self, ctx, currency='btc', interval: int = 2, hour=datetime.now().hour, input_date=str(date.today())):
         global ERROR_READ
         global currencies
@@ -114,6 +114,7 @@ class Crypto(commands.Cog):
                 data = currencies[currency]()
                 if not data == ERROR_READ:
                     await ctx.send(f'{data}')
+                    break
                 else:
                     await ctx.send(f'{ERROR_READ}')
                     break
@@ -121,7 +122,7 @@ class Crypto(commands.Cog):
                 await ctx.send('Invalid currency.')
                 break
 
-    @commands.command()
+    @commands.command(aliases=['ethereum'')
     async def eth(self, ctx, currency='eth', interval: int = 2, hour=datetime.now().hour, input_date=str(date.today())):
         global ERROR_READ
         global currencies
@@ -140,6 +141,7 @@ class Crypto(commands.Cog):
                 data = currencies[currency]()
                 if not data == ERROR_READ:
                     await ctx.send(f'{data}')
+                    break
                 else:
                     await ctx.send(f'{ERROR_READ}')
                     break
