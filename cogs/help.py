@@ -46,6 +46,7 @@ class Help(commands.Cog):
         embed.add_field(name="Help_moderation", value="Gives all the moderation commands.", inline=False)
         embed.add_field(name="Help_management", value="Gives all the management commands.", inline=False)
         embed.add_field(name="Emotes", value="Kiss, Pat, Hug, Slap", inline=False)
+        embed.add_field(name="Crypto", value="Btc, Eth, Planning on adding more", inline=False)
         embed.add_field(name="Website", value="In development.", inline=False)
         embed.add_field(name="Source Code", value="Github Link", inline=False)
         embed.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
@@ -126,7 +127,22 @@ class Help(commands.Cog):
 
         await ctx.send(embed=emote)
 
+    @commands.command(aliases=['cryptocurrency'])
+    async def crypto(self, ctx):
+        value = random.randint(0, 0xffffff)
+        emote = discord.Embed(
+            colour=value,
+            timestamp=datetime.datetime.utcnow()
+        )
 
+        emote.set_author(name="Crypto Commands", icon_url="https://www.canteach.ca/minecraft-pe/images/wheat.gif")
+        emote.add_field(name="Btc", value="Bitcoin", inline=False)
+        emote.add_field(name="Eth", valueo="Etherium", inline=False)
+        emote.add_field(name="BCH", value="Bitcoin Cash(in progress of adding)", inline=False)
+        emote.add_field(name="USDT", value="Tether (in progress of adding", inline=False)
+        emote.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
+
+        await ctx.send(embed=emote)
 def setup(bot):
     bot.add_cog(Help(bot))
     print('Help Loaded')
