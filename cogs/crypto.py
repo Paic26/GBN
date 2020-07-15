@@ -122,7 +122,7 @@ class Crypto(commands.Cog):
                 await ctx.send('Invalid currency.')
                 break
 
-    @commands.command(aliases=['ethereum'')
+    @commands.command(aliases=['ethereum')
     async def eth(self, ctx, currency='eth', interval: int = 2, hour=datetime.now().hour, input_date=str(date.today())):
         global ERROR_READ
         global currencies
