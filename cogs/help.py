@@ -137,7 +137,7 @@ class Help(commands.Cog):
 
         emote.set_author(name="Crypto Commands", icon_url="https://www.canteach.ca/minecraft-pe/images/wheat.gif")
         emote.add_field(name="Btc", value="Bitcoin", inline=False)
-        emote.add_field(name="Eth", valueo="Etherium", inline=False)
+        emote.add_field(name="Eth", valueo="Ethereum", inline=False)
         emote.add_field(name="BCH", value="Bitcoin Cash(in progress of adding)", inline=False)
         emote.add_field(name="USDT", value="Tether (in progress of adding", inline=False)
         emote.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
