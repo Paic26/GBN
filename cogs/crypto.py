@@ -114,7 +114,6 @@ class Crypto(commands.Cog):
                 data = currencies[currency]()
                 if not data == ERROR_READ:
                     await ctx.send(f'{data}')
-                    await asyncio.sleep(interval)
                 else:
                     await ctx.send(f'{ERROR_READ}')
                     break
@@ -141,34 +140,6 @@ class Crypto(commands.Cog):
                 data = currencies[currency]()
                 if not data == ERROR_READ:
                     await ctx.send(f'{data}')
-                    await asyncio.sleep(interval)
-                else:
-                    await ctx.send(f'{ERROR_READ}')
-                    break
-            except KeyError:
-                await ctx.send('Invalid currency.')
-                break
-
-    @commands.command()
-    async def eur(ctx, currency='eur', interval: int = 2, hour=datetime.now().hour, input_date=str(date.today())):
-        global ERROR_READ
-        global currencies
-        interval *= 60
-        input_date = [int(item) for item in input_date.split('-')]
-        try:
-            print("Processing currency price")
-            input_date = date(*input_date)
-            print("Done processing currency")
-        except ValueError:
-            print('Invalid time format.')
-        hour = int(hour)
-
-        while date.today() <= input_date and datetime.now().hour <= hour:
-            try:
-                data = currencies[currency]()
-                if not data == ERROR_READ:
-                    await ctx.send(f'{data}')
-                    await asyncio.sleep(interval)
                 else:
                     await ctx.send(f'{ERROR_READ}')
                     break
