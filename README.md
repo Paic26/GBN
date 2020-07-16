@@ -1,24 +1,27 @@
 # GenericBot
 This bot is very good because I say so
-
-<p align="center">
-  <a href="https://github.com/Paic26/GenericBotName/releases/tag/V2.5">
-  <img src="https://img.shields.io/github/downloads/Paic26/GenericBotName/V2.5/total?color=%239267f0&label=Download%20V2.5&logo=GitHUb&style=for-the-badge">
+<div align="center">
+  <p align="center">
+  <a href="https://heroku.com">
+    <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
   </a>
-  <a href="https://www.python.org/downloads/release/python-378/" target="_blank">
+  <a href="https://www.python.org/downloads/">
     <img src="https://img.shields.io/badge/Made%20With-Python%203.7-blue.svg?style=for-the-badge&logo=Python" alt="Made with Python 3.7">
   </a>
-  <a href="https://dashboard.heroku.com/">
-  <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
+
+  <a href="https://github.com/ambv/black">
+    <img src="https://img.shields.io/badge/Code%20Style-Black-black?style=for-the-badge">
   </a>
-  <a href="https://unlicense.org/">
-  <img src="https://img.shields.io/github/license/Paic26/GenericBotName?style=for-the-badge">
+
+  <a href="https://github.com/Paic26/GenericBotName/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-unlicense-blue.svg?style=for-the-badge" alt="Unlicense License">
   </a>
-  <br>
-  <a href="https://www.python.org/">
-  <img scr="https://img.shields.io/github/languages/top/Paic26/GenericBotName?color=%233776AB&logo=Python&style=for-the-badge">
-  </a>
-  
+
+<br>
+  </p>
+</div>
+
+
 ---
 
 ## Features:
