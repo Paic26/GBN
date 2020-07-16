@@ -12,7 +12,7 @@ This bot is very good because I say so
         <img src="https://img.shields.io/badge/Made%20With-Python%203.7-blue.svg?style=for-the-badge&logo=Python" alt="Made with Python 3.7">
       </a>
       <a href="https://github.com/Paic26/GenericBotName/master/LICENSE">
-        <img src="https://img.shields.io/badge/license-unlicense-blue.svg?style=for-the-badge" alt="Unlicense License">
+        <img src="https://img.shields.io/badge/license-unlicense-00d696.svg?style=for-the-badge" alt="Unlicense License">
       </a>
 
    <br>
