@@ -167,7 +167,7 @@ class Crypto(commands.Cog):
                 
 
     @commands.command(aliases=['tether'])
-    async def usdt(self, ctx, currency='eth', interval: int = 2, hour=datetime.now().hour, input_date=str(date.today())):
+    async def usdt(self, ctx, currency='usdt', interval: int = 2, hour=datetime.now().hour, input_date=str(date.today())):
         global ERROR_READ
         global currencies
         interval *= 60
