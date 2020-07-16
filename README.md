@@ -32,7 +32,7 @@ This bot is very good because I say so
 * Website in development
 * 24/7 Online
 ## Commands:
-
+[![Heroku App Status](http://heroku-shields.herokuapp.com/generic-bot-name)](https://generic-bot-name.herokuapp.com)
 #### Management:
 
 * Change prefix
