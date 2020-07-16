@@ -24,7 +24,7 @@ This bot is very good because I say so
 
 ---
 
-## Featues:
+## Features:
 
 * Welcome Message(+ add role)
 * Changing Status
