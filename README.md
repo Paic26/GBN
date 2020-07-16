@@ -8,8 +8,9 @@ This bot is very good because I say so
   <a href="https://www.python.org/downloads/release/python-378/" target="_blank">
     <img src="https://img.shields.io/badge/Made%20With-Python%203.7-blue.svg?style=for-the-badge&logo=Python" alt="Made with Python 3.7">
   </a>
+  <a href="https://dashboard.heroku.com/">
   <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
-  
+  </a>
   <a href="https://unlicense.org/">
   <img src="https://img.shields.io/github/license/Paic26/GenericBotName?style=for-the-badge">
   </a>
