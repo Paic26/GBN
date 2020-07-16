@@ -66,7 +66,7 @@ def get_usdt():
         usdt_change = soup.find('div', attrs={'class': 'col-md-6 col-xs-6 coin-percentage'}).text
         usdt_change = re.sub("[^0-9.,%\-+]", "", usdt_change)
         print(usdt_change)
-        return "BTC: {}, change: {}".format(bitcoin_price, usdt_change)
+        return "USDT: {}, change: {}".format(usdt_price, usdt_change)
     except AttributeError:
         return ERROR_READ
 
