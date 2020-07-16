@@ -114,7 +114,7 @@ class Crypto(commands.Cog):
                 data = currencies[currency]()
                 if not data == ERROR_READ:
                     await ctx.send(f'{data}')
-                    break
+                    return
                 else:
                     await ctx.send(f'{ERROR_READ}')
                     break
@@ -141,7 +141,7 @@ class Crypto(commands.Cog):
                 data = currencies[currency]()
                 if not data == ERROR_READ:
                     await ctx.send(f'{data}')
-                    break
+                    return
                 else:
                     await ctx.send(f'{ERROR_READ}')
                     break
