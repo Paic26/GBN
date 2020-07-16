@@ -136,10 +136,11 @@ class Help(commands.Cog):
         )
 
         crypto.set_author(name="Crypto Commands", icon_url="https://www.canteach.ca/minecraft-pe/images/wheat.gif")
-        crypto.add_field(name="Btc", value="Bitcoin", inline=False)
-        crypto.add_field(name="Eth", valueo="Ethereum", inline=False)
-        crypto.add_field(name="BCH", value="Bitcoin Cash(in progress of adding)", inline=False)
-        crypto.add_field(name="USDT", value="Tether (in progress of adding", inline=False)
+        crypto.add_field(name="BTC", value="Bitcoin", inline=False)
+        crypto.add_field(name="ETH", valueo="Ethereum", inline=False)
+        crypto.add_field(name="BCH", value="Bitcoin Cash", inline=False)
+        crypto.add_field(name="USDT", value="Tether", inline=False)
+        crypto.add_field(name="CSPN", value="Crypto Sports",inline=False)
         crypto.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
 
         await ctx.send(embed=crypto)
