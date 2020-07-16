@@ -25,15 +25,15 @@
 ---
 
 <h2 align="center"> Features: </h2>
-
-* Welcome Message(+ add role)
-* Changing Status
-* Cogs
-* Support Server
-* Invite link
-* Website in development
-* 24/7 Online
-
+<p align="center">
+ Welcome Message(+ add role) <br>
+ Changing Status <br>
+ Cogs <br>
+ Support Server <br>
+ Invite link <br>
+ Website in development <br>
+ 24/7 Online <br>
+</p>
 <h2 align="center"> Commands: </h2><br>
 
 <h3 align="center"> Management: </h3>
@@ -41,36 +41,37 @@
  Change prefix <br>
  Error Output for all commands<br>
  Ping<br>
- Word Filter
+ Word Filter <br>
 </p>
 <h3 align="center"> Moderation: </h3>
-
-* Ban
-* Unban
-* Kick
-* Mute
-* Unmute
-* Clear
-
+<p align="center">
+ Ban <br>
+ Unban <br>
+ Kick <br>
+ Mute <br>
+ Unmute <br>
+ Clear <br>
+</p>
 <h3 align="center"> Entertainment: </h3>
-
-* Coinflip (_Heads or Tails_)
-* 8ball (_20 posible Answers_)
-* Whois (About user)
-* Random Facts
-* Memes
-
+<p align="center">
+ Coinflip (_Heads or Tails_)  <br>
+ 8ball (_20 posible Answers_) <br>
+ Whois (About user) <br>
+ Random Facts <br>
+ Memes <br>
+</p>
 <h3 align="center"> Cryptocurrencies: </h3>
-
-* Bitcoin
-* Ethereum
-* Bitcoin Cash
-* Tether
-* Crypto Sports
-
+<p align="center">
+ Bitcoin <br>
+ Ethereum <br>
+ Bitcoin Cash <br>
+ Tether <br>
+ Crypto Sports <br>
+</p>
 <h2 align="center"> Emotes: </h2>
-
-* Hug
-* Pat
-* Kiss
-* Slap
+<p align="center">
+ Hug <br>
+ Pat <br>
+ Kiss <br>
+ Slap <br>
+</p>
