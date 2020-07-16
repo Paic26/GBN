@@ -24,7 +24,7 @@ This bot is very good because I say so
 
 ---
 
-## Features:
+<h2> Features: </h2>
 
 * Welcome Message(+ add role)
 * Changing Status
@@ -33,16 +33,17 @@ This bot is very good because I say so
 * Invite link
 * Website in development
 * 24/7 Online
-## Commands:
 
-#### Management:
+<h2> Commands: </h2>
+
+<h3> Management: </h3>
 
 * Change prefix
 * Error Output for all commands
 * Ping
 * Word Filter
 
-#### Moderation:
+<h3> Moderation: </h3>
 
 * Ban
 * Unban
@@ -51,7 +52,7 @@ This bot is very good because I say so
 * Unmute
 * Clear
 
-#### Entertainment
+<h3> Entertainment: </h3>
 
 * Coinflip (_Heads or Tails_)
 * 8ball (_20 posible Answers_)
@@ -59,7 +60,7 @@ This bot is very good because I say so
 * Random Facts
 * Memes
 
-### Cryptocurrencies:
+<h3> Cryptocurrencies: </h3>
 
 * Bitcoin
 * Ethereum
@@ -67,7 +68,7 @@ This bot is very good because I say so
 * Tether
 * Crypto Sports
 
-## Emotes:
+<h2> Emotes: </h2>
 
 * Hug
 * Pat
