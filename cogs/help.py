@@ -137,7 +137,7 @@ class Help(commands.Cog):
 
         crypto.set_author(name="Crypto Commands", icon_url="https://www.canteach.ca/minecraft-pe/images/wheat.gif")
         crypto.add_field(name="BTC", value="Bitcoin", inline=False)
-        crypto.add_field(name="ETH", valueo="Ethereum", inline=False)
+        crypto.add_field(name="ETH", value="Ethereum", inline=False)
         crypto.add_field(name="BCH", value="Bitcoin Cash", inline=False)
         crypto.add_field(name="USDT", value="Tether", inline=False)
         crypto.add_field(name="CSPN", value="Crypto Sports",inline=False)
