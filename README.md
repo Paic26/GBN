@@ -16,13 +16,14 @@ This bot is very good because I say so
       </a>
         <img src="https://img.shields.io/github/commit-activity/m/Paic26/GenericBotName?color=42a341&label=Commits&logo=Github&logoColor=42a341&style=for-the-badge">
    <br>
+      <img src=https://img.shields.io/badge/Commits%20-111/month-42a341.svg?logo=Github&style=for-the-badge&logo=Github">
   </p>
 </div>
 
 
 ---
 
-## Features:
+## Featues:
 
 * Welcome Message(+ add role)
 * Changing Status
