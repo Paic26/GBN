@@ -31,7 +31,7 @@ This bot is very good because I say so
 * Unmute
 * Clear
 
-#### Entertainement
+#### Entertainment
 
 * Coinflip (_Heads or Tails_)
 * 8ball (_20 posible Answers_)
