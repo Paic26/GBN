@@ -130,7 +130,7 @@ class Help(commands.Cog):
     @commands.command(aliases=['cryptocurrency'])
     async def crypto(self, ctx):
         value = random.randint(0, 0xffffff)
-        emote = discord.Embed(
+        crypto = discord.Embed(
             colour=value,
             timestamp=datetime.datetime.utcnow()
         )
