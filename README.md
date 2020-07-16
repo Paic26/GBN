@@ -68,7 +68,7 @@
  Tether <br>
  Crypto Sports <br>
 </p>
-<h2 align="center"> Emotes: </h2>
+<h3 align="center"> Emotes: </h3>
 <p align="center">
  Hug <br>
  Pat <br>
