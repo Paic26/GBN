@@ -5,16 +5,16 @@ This bot is very good because I say so
       <a href="https://github.com/Paic26/GenericBotName/releases/tag/V2.5">
         <img src="https://img.shields.io/github/downloads/Paic26/GenericBotName/V2.5/total?color=ffa600&label=Download%20v2.5&logo=Github&logoColor=ffa600&style=for-the-badge">
       </a>
-      <a href="https://heroku.com">
-        <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
-      </a>
       <a href="https://www.python.org/downloads/">
         <img src="https://img.shields.io/badge/Made%20With-Python%203.7-blue.svg?style=for-the-badge&logo=Python" alt="Made with Python 3.7">
       </a>
+      <a href="https://heroku.com">
+        <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
+      </a>
+    <br>
       <a href="https://github.com/Paic26/GenericBotName/master/LICENSE">
         <img src="https://img.shields.io/badge/license-unlicense-00d696.svg?style=for-the-badge" alt="Unlicense License">
       </a>
-    <br>
       <a href="https://github.com/Paic26/GenericBotName/commits/master">
         <img src=https://img.shields.io/badge/Commits%20-111/month-42a341.svg?style=for-the-badge&logo=Github">
       </a>
