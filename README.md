@@ -46,3 +46,10 @@ This bot is very good because I say so
 * Bitcoin Cash
 * Tether
 * Crypto Sports
+
+## Emotes:
+
+* Hug
+* Pat
+* Kiss
+* Slap
