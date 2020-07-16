@@ -90,7 +90,7 @@ def get_ethereum():
 currencies = {
     'btc': get_bitcoin,
     'eur': get_eur,
-    'eth': get_ethereum
+    'eth': get_ethereum,
     'usdt': get_usdt
 }
 
