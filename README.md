@@ -2,6 +2,9 @@
 
 This bot is very good because I say so
 
+<p align="center">
+  <img src="https://img.shields.io/github/downloads/Paic26/GenericBotName/V2.5/total?color=%239267f0&label=Download%20V2.5&logo=GitHUb&style=for-the-badge">
+
 ---
 
 ## Features:
