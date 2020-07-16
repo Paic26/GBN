@@ -14,7 +14,7 @@ This bot is very good because I say so
       <a href="https://github.com/Paic26/GenericBotName/master/LICENSE">
         <img src="https://img.shields.io/badge/license-unlicense-00d696.svg?style=for-the-badge" alt="Unlicense License">
       </a>
-
+        <img src="https://img.shields.io/github/commit-activity/m/Paic26/GenericBotName?color=42a341&label=Commits&logo=Github&logoColor=42a341&style=for-the-badge">
    <br>
   </p>
 </div>
@@ -32,7 +32,7 @@ This bot is very good because I say so
 * Website in development
 * 24/7 Online
 ## Commands:
-[![Heroku App Status](http://heroku-shields.herokuapp.com/generic-bot-name)](https://generic-bot-name.herokuapp.com)
+
 #### Management:
 
 * Change prefix
