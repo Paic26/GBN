@@ -1,5 +1,5 @@
-# GenericBot
-This bot is very good because I say so
+<h1 align="center"> GenericBot </h1>
+<p align="center">This bot is very good because I say so </p>
 <div align="center">
   <p align="center">
       <a href="https://github.com/Paic26/GenericBotName/releases/tag/V2.5">
@@ -24,7 +24,7 @@ This bot is very good because I say so
 
 ---
 
-<h2> Features: </h2>
+<h2 align="center"> Features: </h2>
 
 * Welcome Message(+ add role)
 * Changing Status
@@ -34,16 +34,16 @@ This bot is very good because I say so
 * Website in development
 * 24/7 Online
 
-<h2> Commands: </h2>
+<h2 align="center"> Commands: </h2><br>
 
-<h3> Management: </h3>
-
-* Change prefix
-* Error Output for all commands
-* Ping
-* Word Filter
-
-<h3> Moderation: </h3>
+<h3 align="center"> Management: </h3>
+<p align="center">
+ Change prefix <br>
+ Error Output for all commands<br>
+ Ping<br>
+ Word Filter
+</p>
+<h3 align="center"> Moderation: </h3>
 
 * Ban
 * Unban
@@ -52,7 +52,7 @@ This bot is very good because I say so
 * Unmute
 * Clear
 
-<h3> Entertainment: </h3>
+<h3 align="center"> Entertainment: </h3>
 
 * Coinflip (_Heads or Tails_)
 * 8ball (_20 posible Answers_)
@@ -60,7 +60,7 @@ This bot is very good because I say so
 * Random Facts
 * Memes
 
-<h3> Cryptocurrencies: </h3>
+<h3 align="center"> Cryptocurrencies: </h3>
 
 * Bitcoin
 * Ethereum
@@ -68,7 +68,7 @@ This bot is very good because I say so
 * Tether
 * Crypto Sports
 
-<h2> Emotes: </h2>
+<h2 align="center"> Emotes: </h2>
 
 * Hug
 * Pat
