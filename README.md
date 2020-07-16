@@ -38,3 +38,11 @@ This bot is very good because I say so
 + Whois (About user)
 + Random Facts
 + Memes
+
+### Cryptocurrencies:
+
+* Bitcoin
+* Ethereum
+* Bitcoin Cash
+* Tether
+* Crypto Sports
