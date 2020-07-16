@@ -14,8 +14,9 @@ This bot is very good because I say so
       <a href="https://github.com/Paic26/GenericBotName/master/LICENSE">
         <img src="https://img.shields.io/badge/license-unlicense-00d696.svg?style=for-the-badge" alt="Unlicense License">
       </a>
-      <a href="">
-        <img src=https://img.shields.io/badge/Commits%20-111/month-42a341.svg?color=42a341&label=Commits&logo=Github&logoColor=42a341&style=for-the-badge">
+    <br>
+      <a href="https://github.com/Paic26/GenericBotName/commits/master">
+        <img src=https://img.shields.io/badge/Commits%20-111/month-42a341.svg?style=for-the-badge&logo=Github">
       </a>
   </p>
 </div>
