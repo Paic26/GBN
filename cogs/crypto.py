@@ -69,6 +69,23 @@ def get_usdt():
         return "USDT: {}, change: {}".format(usdt_price, usdt_change)
     except AttributeError:
         return ERROR_READ
+    
+def get_bch():
+    global ERROR_READ
+    url = 'https://www.worldcoinindex.com/coin/bitcoincash'
+    page = urllib3.PoolManager(cert_reqs='CERT_REQUIRED', ca_certs=certifi.where()).request('GET', url)
+    soup = BeautifulSoup(page.data, 'html.parser')
+    try:
+        bch_price = soup.find('div', attrs={'class': 'col-md-6 col-xs-6 coinprice'}).text
+        bch_price = re.sub("[^0-9.,$]", "", bch_price)
+        print(bch_price)
+        bch_change = soup.find('div', attrs={'class': 'col-md-6 col-xs-6 coin-percentage'}).text
+        bch_change = re.sub("[^0-9.,%\-+]", "", bch_change)
+        print(bch_change)
+        return "BCH: {}, change: {}".format(bch_price, bch_change)
+    except AttributeError:
+        return ERROR_READ    
+    
 
 def get_ethereum():
     global ERROR_READ
@@ -91,7 +108,8 @@ currencies = {
     'btc': get_bitcoin,
     'eur': get_eur,
     'eth': get_ethereum,
-    'usdt': get_usdt
+    'usdt': get_usdt,
+    'bch': get_bch
 }
 
 
@@ -192,7 +210,38 @@ class Crypto(commands.Cog):
             except KeyError:
                 await ctx.send('Invalid currency.')
                 break
+                
+                
+                
+                
+    @commands.command(aliases=['BitcoinCash'])
+    async def bch(self, ctx, currency='bch', interval: int = 2, hour=datetime.now().hour, input_date=str(date.today())):
+        global ERROR_READ
+        global currencies
+        interval *= 60
+        input_date = [int(item) for item in input_date.split('-')]
+        try:
+            print("Processing currency price")
+            input_date = date(*input_date)
+            print("Done processing currency")
+        except ValueError:
+            print('Invalid time format.')
+        hour = int(hour)
 
+        while date.today() <= input_date and datetime.now().hour <= hour:
+            try:
+                data = currencies[currency]()
+                if not data == ERROR_READ:
+                    await ctx.send(f'{data}')
+                    return
+                else:
+                    await ctx.send(f'{ERROR_READ}')
+                    break
+            except KeyError:
+                await ctx.send('Invalid currency.')
+                break
+                
+           
 def setup(bot):
     bot.add_cog(Crypto(bot))
     print('Crypto Loaded')
