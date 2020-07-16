@@ -135,14 +135,15 @@ class Help(commands.Cog):
             timestamp=datetime.datetime.utcnow()
         )
 
-        emote.set_author(name="Crypto Commands", icon_url="https://www.canteach.ca/minecraft-pe/images/wheat.gif")
-        emote.add_field(name="Btc", value="Bitcoin", inline=False)
-        emote.add_field(name="Eth", valueo="Ethereum", inline=False)
-        emote.add_field(name="BCH", value="Bitcoin Cash(in progress of adding)", inline=False)
-        emote.add_field(name="USDT", value="Tether (in progress of adding", inline=False)
-        emote.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
+        crypto.set_author(name="Crypto Commands", icon_url="https://www.canteach.ca/minecraft-pe/images/wheat.gif")
+        crypto.add_field(name="Btc", value="Bitcoin", inline=False)
+        crypto.add_field(name="Eth", valueo="Ethereum", inline=False)
+        crypto.add_field(name="BCH", value="Bitcoin Cash(in progress of adding)", inline=False)
+        crypto.add_field(name="USDT", value="Tether (in progress of adding", inline=False)
+        crypto.set_footer(text=f"Just helped{ctx.author}", icon_url=ctx.author.avatar_url)
 
-        await ctx.send(embed=emote)
+        await ctx.send(embed=crypto)
+        
 def setup(bot):
     bot.add_cog(Help(bot))
     print('Help Loaded')
