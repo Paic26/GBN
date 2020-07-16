@@ -54,6 +54,21 @@ def get_bitcoin():
     except AttributeError:
         return ERROR_READ
 
+def get_usdt():
+    global ERROR_READ
+    url = 'https://www.worldcoinindex.com/coin/tether'
+    page = urllib3.PoolManager(cert_reqs='CERT_REQUIRED', ca_certs=certifi.where()).request('GET', url)
+    soup = BeautifulSoup(page.data, 'html.parser')
+    try:
+        usdt_price = soup.find('div', attrs={'class': 'col-md-6 col-xs-6 coinprice'}).text
+        usdt_price = re.sub("[^0-9.,$]", "", usdt_price)
+        print(usdt_price)
+        usdt_change = soup.find('div', attrs={'class': 'col-md-6 col-xs-6 coin-percentage'}).text
+        usdt_change = re.sub("[^0-9.,%\-+]", "", usdt_change)
+        print(usdt_change)
+        return "BTC: {}, change: {}".format(bitcoin_price, usdt_change)
+    except AttributeError:
+        return ERROR_READ
 
 def get_ethereum():
     global ERROR_READ
@@ -76,6 +91,7 @@ currencies = {
     'btc': get_bitcoin,
     'eur': get_eur,
     'eth': get_ethereum
+    'usdt': get_usdt
 }
 
 
@@ -124,6 +140,34 @@ class Crypto(commands.Cog):
 
     @commands.command(aliases=['ethereum'])
     async def eth(self, ctx, currency='eth', interval: int = 2, hour=datetime.now().hour, input_date=str(date.today())):
+        global ERROR_READ
+        global currencies
+        interval *= 60
+        input_date = [int(item) for item in input_date.split('-')]
+        try:
+            print("Processing currency price")
+            input_date = date(*input_date)
+            print("Done processing currency")
+        except ValueError:
+            print('Invalid time format.')
+        hour = int(hour)
+
+        while date.today() <= input_date and datetime.now().hour <= hour:
+            try:
+                data = currencies[currency]()
+                if not data == ERROR_READ:
+                    await ctx.send(f'{data}')
+                    return
+                else:
+                    await ctx.send(f'{ERROR_READ}')
+                    break
+            except KeyError:
+                await ctx.send('Invalid currency.')
+                break
+                
+
+    @commands.command(aliases=['tether'])
+    async def usdt(self, ctx, currency='eth', interval: int = 2, hour=datetime.now().hour, input_date=str(date.today())):
         global ERROR_READ
         global currencies
         interval *= 60
