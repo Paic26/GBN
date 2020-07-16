@@ -33,11 +33,11 @@ This bot is very good because I say so
 
 #### Entertainement
 
-+ Coinflip (_Heads or Tails_)
-+ 8ball (_20 posible Answers_)
-+ Whois (About user)
-+ Random Facts
-+ Memes
+* Coinflip (_Heads or Tails_)
+* 8ball (_20 posible Answers_)
+* Whois (About user)
+* Random Facts
+* Memes
 
 ### Cryptocurrencies:
 
