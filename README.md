@@ -3,7 +3,7 @@ This bot is very good because I say so
 <div align="center">
   <p align="center">
       <a href="https://github.com/Paic26/GenericBotName/releases/tag/V2.5">
-        <img src="https://img.shields.io/github/downloads/Paic26/GenericBotName/V2.5/total?color=%239267f0&label=Download%20V2.5&logo=GitHUb&style=for-the-badge">
+        <img src="https://img.shields.io/github/downloads/Paic26/GenericBotName/V2.5/total?color=ffa600&label=Download%20v2.5&logo=Github&logoColor=ffa600&style=for-the-badge">
       </a>
       <a href="https://heroku.com">
         <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
