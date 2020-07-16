@@ -14,8 +14,9 @@ This bot is very good because I say so
   <a href="https://unlicense.org/">
   <img src="https://img.shields.io/github/license/Paic26/GenericBotName?style=for-the-badge">
   </a>
+  <br>
   <a href="https://www.python.org/">
-    <img scr="https://img.shields.io/github/languages/top/Paic26/GenericBotName?color=%233776AB&logo=Python&style=for-the-badge">
+  <img scr="https://img.shields.io/github/languages/top/Paic26/GenericBotName?color=%233776AB&logo=Python&style=for-the-badge">
   </a>
   
 ---
