@@ -26,52 +26,52 @@
 
 <h2 align="center"> Features: </h2>
 <p align="center">
- Welcome Message(+ add role) <br>
- Changing Status <br>
- Cogs <br>
- Support Server <br>
- Invite link <br>
- Website in development <br>
- 24/7 Online <br>
+ &bull;Welcome Message(+ add role) <br>
+ &bull;Changing Status <br>
+ &bull;Cogs <br>
+ &bull;Support Server <br>
+ &bull;Invite link <br>
+ &bull;Website in development <br>
+ &bull;24/7 Online <br>
 </p>
 <h2 align="center"> Commands: </h2><br>
 
 <h3 align="center"> Management: </h3>
 <p align="center">
- Change prefix <br>
- Error Output for all commands<br>
- Ping<br>
- Word Filter <br>
+ &bull; Change prefix <br>
+ &bull;Error Output for all commands<br>
+ &bull;Ping<br>
+ &bull;Word Filter <br>
 </p>
 <h3 align="center"> Moderation: </h3>
 <p align="center">
- Ban <br>
- Unban <br>
- Kick <br>
- Mute <br>
- Unmute <br>
- Clear <br>
+ &bull;Ban <br>
+ &bull;Unban <br>
+ &bull;Kick <br>
+ &bull;Mute <br>
+ &bull;Unmute <br>
+ &bull;Clear <br>
 </p>
 <h3 align="center"> Entertainment: </h3>
 <p align="center">
- Coinflip (_Heads or Tails_)  <br>
- 8ball (_20 posible Answers_) <br>
- Whois (About user) <br>
- Random Facts <br>
- Memes <br>
+ &bull;Coinflip (_Heads or Tails_)  <br>
+ &bull;8ball (_20 posible Answers_) <br>
+ &bull;Whois (About user) <br>
+ &bull;Random Facts <br>
+ &bull;Memes <br>
 </p>
 <h3 align="center"> Cryptocurrencies: </h3>
 <p align="center">
- Bitcoin <br>
- Ethereum <br>
- Bitcoin Cash <br>
- Tether <br>
- Crypto Sports <br>
+ &bull;Bitcoin <br>
+ &bull;Ethereum <br>
+ &bull;Bitcoin Cash <br>
+ &bull;Tether <br>
+ &bull;Crypto Sports <br>
 </p>
 <h3 align="center"> Emotes: </h3>
 <p align="center">
- Hug <br>
- Pat <br>
- Kiss <br>
- Slap <br>
+ &bull;Hug <br>
+ &bull;Pat <br>
+ &bull;Kiss <br>
+ &bull;Slap <br>
 </p>
