@@ -49,12 +49,12 @@
 </p>
 <h3 align="center"> Moderation: </h3>
 <p align="center">
- &bull;Ban <br>
- &bull;Unban <br>
- &bull;Kick <br>
- &bull;Mute <br>
  &bull;Unmute <br>
+ &bull;Unban <br>
  &bull;Clear <br>
+ &bull;Mute <br>
+ &bull;Kick <br>
+ &bull;Ban <br>
 </p>
 <h3 align="center"> Entertainment: </h3>
 <p align="center">
