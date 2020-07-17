@@ -66,11 +66,11 @@
 </p>
 <h3 align="center"> Cryptocurrencies: </h3>
 <p align="center">
- &bull;Bitcoin <br>
- &bull;Ethereum <br>
- &bull;Bitcoin Cash <br>
- &bull;Tether <br>
  &bull;Crypto Sports <br>
+ &bull;Bitcoin Cash <br>
+ &bull;Ethereum <br>
+ &bull;Bitcoin <br>
+ &bull;Tether <br>
 </p>
 <h3 align="center"> Emotes: </h3>
 <p align="center">
