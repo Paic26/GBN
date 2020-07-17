@@ -58,8 +58,8 @@
 </p>
 <h3 align="center"> Entertainment: </h3>
 <p align="center">
+ &bull;8ball (<em>20 posible Answers</em>) <br>  
  &bull;Coinflip (<em>Heads or Tails</em>)  <br>
- &bull;8ball (<em>20 posible Answers</em>) <br>
  &bull;Whois (<em>About user</em>) <br>
  &bull;Random Facts <br>
  &bull;Memes <br>
