@@ -70,7 +70,7 @@ class Management(commands.Cog):
             colour=value,
             title="Join our support server!"
         )
-        embed.add_field(name="Support Server", value="[Invite Link](https://discord.gg/zuaM2f9)")
+        embed.add_field(name="Support Server", value="[Invite Link](https://discord.io/GenericBotName)")
         await ctx.send(embed=embed)
 
     @commands.command()
