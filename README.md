@@ -75,9 +75,10 @@
 <h3 align="center"> Emotes: </h3>
 <p align="center">
  &bull;Slap<br>
+ &bull;Hug<br>
  &bull;Kiss<br>
  &bull;Pat<br>
- &bull;Hug<br>
+ 
 
 
 </p>
