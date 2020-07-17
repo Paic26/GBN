@@ -1,4 +1,4 @@
-<h1 align="center"> GenericBot </h1>
+<h1 align="center"> Generic Bot Name </h1>
 <p align="center">This bot is very good because I say so </p>
 <div align="center">
   <p align="center">
