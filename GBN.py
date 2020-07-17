@@ -116,4 +116,4 @@ async def stats(ctx):
     await ctx.send(embed=embed)
 
 
-bot.run('NzA5NDQyNTcyNzc0NTM5Mjk0.Xw-Hzg.dQk9B4V8xeXCxBwIzY5SNaQSpgw')
+bot.run(os.environ['DISCORD_TOKEN'])
