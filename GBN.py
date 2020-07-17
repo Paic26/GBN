@@ -3,10 +3,12 @@ import json
 from discord.ext import commands
 import  os
 import asyncio
+from datetime import datetime
 import datetime
 import random
 import praw
 import platform
+
 
 def get_prefix(client, message):
     with open('./json/prefixes.json', 'r') as f:
@@ -21,6 +23,7 @@ bot = commands.Bot(command_prefix = get_prefix,  case_insensitive=True, owner_id
 Bot = discord.client
 client = bot
 client.remove_command('help')
+bot.launch_time = datetime.utcnow()
 
 bot.reddit = praw.Reddit(client_id=config_data['reddit_client_id'],
                           client_secret=config_data['reddit_client_secret'],
@@ -115,5 +118,21 @@ async def stats(ctx):
 
     await ctx.send(embed=embed)
 
+@bot.command()
+async def uptime(ctx):
+    delta_uptime = datetime.utcnow() - bot.launch_time
+    hours, remainder = divmod(int(delta_uptime.total_seconds()), 3600)
+    minutes, seconds = divmod(remainder, 60)
+    days, hours = divmod(hours, 24)
 
-bot.run(os.environ['DISCORD_TOKEN'])
+    value = random.randint(0, 0xffffff)
+    up = discord.Embed(
+        colour=value,
+        title="Uptime",
+        description="I've been online for:",
+        timestamp=datetime.utcnow()
+    )
+    up.add_field(name=f"{days}d, {hours}h, {minutes}m, {seconds}s", value="\u200b", inline=False)
+    await ctx.send(embed=up)
+
+    bot.run(os.environ['DISCORD_TOKEN'])
