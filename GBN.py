@@ -135,4 +135,4 @@ async def uptime(ctx):
     up.add_field(name=f"{days}d, {hours}h, {minutes}m, {seconds}s", value="\u200b", inline=False)
     await ctx.send(embed=up)
 
-    bot.run(os.environ['DISCORD_TOKEN'])
+bot.run(os.environ['DISCORD_TOKEN'])
