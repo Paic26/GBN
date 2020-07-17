@@ -5,6 +5,7 @@ import  os
 import asyncio
 import datetime
 import random
+import praw
 
 
 def get_prefix(client, message):
