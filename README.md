@@ -36,7 +36,9 @@
  &bull;Support Server <br>
  &bull;24/7 Online <br>
  &bull;Invite link <br>
+ &bull;Stats <br>
  &bull;Cogs <br>
+ 
 </p>
 <h2 align="center"> Commands: </h2><br>
 
