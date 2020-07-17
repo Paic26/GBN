@@ -26,7 +26,7 @@
 
 <h2 align="center"> Features: </h2>
 <p align="center">
- &bull;Welcome Message(+ add role) <br>
+  &bull;Welcome Message(<em>+ add role</em>) <br>
  &bull;Changing Status <br>
  &bull;Cogs <br>
  &bull;Support Server <br>
@@ -38,7 +38,7 @@
 
 <h3 align="center"> Management: </h3>
 <p align="center">
- &bull; Change prefix (preset prefix = _)<br>
+ &bull; Change prefix (<em>preset prefix = _</em>)<br>
  &bull;Error Output for all commands<br>
  &bull;Ping<br>
  &bull;Word Filter <br>
@@ -54,9 +54,9 @@
 </p>
 <h3 align="center"> Entertainment: </h3>
 <p align="center">
- &bull;Coinflip (_Heads or Tails_)  <br>
- &bull;8ball (_20 posible Answers_) <br>
- &bull;Whois (About user) <br>
+ &bull;Coinflip (<em>Heads or Tails</em>)  <br>
+ &bull;8ball (<em>20 posible Answers</em>) <br>
+ &bull;Whois (<em>About user</em>) <br>
  &bull;Random Facts <br>
  &bull;Memes <br>
 </p>
