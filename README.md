@@ -19,7 +19,7 @@
         <img src=https://img.shields.io/badge/Commits%20-127/month-42a341.svg?style=for-the-badge&logo=Github">
       </a>
      <br>
-      <a href="https://discord.com/invite/zuaM2f9">
+      <a href="https://discord.io/GenericBotName">
         <img src="https://img.shields.io/badge/discord-join-7289DA.svg?style=for-the-badge&logo=Discord">
       </a>
   </p>
