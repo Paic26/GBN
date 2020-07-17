@@ -33,8 +33,8 @@
  &bull;Welcome Message(<em>+ add role</em>) <br>
  &bull;Website in development <br>
  &bull;Changing Status <br>
+ &bull;Support Server <br>
  &bull;24/7 Online <br>
- &bull;Support Server <br>  
  &bull;Invite link <br>
  &bull;Cogs <br>
 </p>
