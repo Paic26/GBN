@@ -82,7 +82,7 @@
  
 <h3 align="center"> Reddit: </h3>
 <p align="center">
- &bull;Recieive an image from the choosen subreddit(<em>e.g Meme</em) <br>
+ &bull;Receive an image from the choosen subreddit(<em>e.g Meme</em>)<br>
  &bull;See the latest posts on your favourite subreaddit<br>
  &bull;Check a users profile<br>
 </p>
