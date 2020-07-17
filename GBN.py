@@ -13,11 +13,17 @@ def get_prefix(client, message):
 
     return prefixes[str(message.guild.id)]
 
+with open('./json/config.json') as config:
+    config_data = json.load(config)
 
 bot = commands.Bot(command_prefix = get_prefix,  case_insensitive=True, owner_id=382947478422421516)
 Bot = discord.client
 client = bot
 client.remove_command('help')
+
+bot.reddit = praw.Reddit(client_id=config_data['reddit_client_id'],
+                          client_secret=config_data['reddit_client_secret'],
+                          user_agent=config_data['reddit_user_agent'])
 
 #cogs
 @bot.command()
