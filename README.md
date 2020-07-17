@@ -51,8 +51,8 @@
 <p align="center">
  &bull;Unmute <br>
  &bull;Unban <br>
- &bull;Clear <br>
  &bull;Mute <br>
+ &bull;Clear <br>
  &bull;Kick <br>
  &bull;Ban <br>
 </p>
