@@ -20,7 +20,7 @@
       </a>
      <br>
       <a href="https://discord.com/invite/zuaM2f9">
-        <img src="https://img.shields.io/badge/discord-join-7289DA.svg?style=for-the-badge&logo=Discord">{:target="_blank"}
+        <img src="https://img.shields.io/badge/discord-join-7289DA.svg?style=for-the-badge&logo=Discord">
       </a>
   </p>
 </div>
