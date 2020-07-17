@@ -38,7 +38,7 @@
 
 <h3 align="center"> Management: </h3>
 <p align="center">
- &bull; Change prefix <br>
+ &bull; Change prefix (preset prefix = _)<br>
  &bull;Error Output for all commands<br>
  &bull;Ping<br>
  &bull;Word Filter <br>
