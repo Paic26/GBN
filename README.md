@@ -30,13 +30,13 @@
 
 <h2 align="center"> Features: </h2>
 <p align="center">
-  &bull;Welcome Message(<em>+ add role</em>) <br>
- &bull;Changing Status <br>
- &bull;Cogs <br>
- &bull;Support Server <br>
- &bull;Invite link <br>
+ &bull;Welcome Message(<em>+ add role</em>) <br>
  &bull;Website in development <br>
+ &bull;Changing Status <br>
  &bull;24/7 Online <br>
+ &bull;Support Server <br>  
+ &bull;Invite link <br>
+ &bull;Cogs <br>
 </p>
 <h2 align="center"> Commands: </h2><br>
 
@@ -44,8 +44,8 @@
 <p align="center">
  &bull; Change prefix (<em>preset prefix = _</em>)<br>
  &bull;Error Output for all commands<br>
- &bull;Ping<br>
  &bull;Word Filter <br>
+ &bull;Ping<br>
 </p>
 <h3 align="center"> Moderation: </h3>
 <p align="center">
