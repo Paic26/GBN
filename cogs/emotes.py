@@ -35,17 +35,8 @@ with open("./json/hug.json", "r") as f:
 
 gif = []
 
-def get_prefix(client, message):
-    with open('./json/prefixes.json', 'r') as f:
-        prefixes = json.load(f)
 
-    return prefixes[str(message.guild.id)]
-
-
-bot = commands.Bot(command_prefix=get_prefix, case_insensitive=True)
 Bot = discord.client
-client = bot
-client.remove_command('help')
 
 
 class Emotes(commands.Cog):
@@ -74,12 +65,12 @@ class Emotes(commands.Cog):
             json.dump(src, f)
 
     @commands.command()
-    async def slap(self, ctx):
+    async def slap(self, ctx, member: discord.Member):
         value = random.randint(0, 0xffffff)
         meme = discord.Embed(
             colour=value,
             timestamp=datetime.datetime.utcnow(),
-            title="Slap"
+            title=f"{ctx.author.display_name} Slapped {member.display_name}"
         )
         meme.set_image(url=choice(src))
         meme.set_footer(text=f"Requested By {ctx.author}", icon_url=ctx.author.avatar_url)
@@ -99,12 +90,12 @@ class Emotes(commands.Cog):
             json.dump(src, f)
 
     @commands.command()
-    async def pat(self, ctx):
+    async def pat(self, ctx, member: discord.Member):
         value = random.randint(0, 0xffffff)
         meme = discord.Embed(
             colour=value,
             timestamp=datetime.datetime.utcnow(),
-            title="Pat"
+            title=f"{ctx.author.display_name} Patted {member.display_name}"
         )
         meme.set_image(url=choice(src2))
         meme.set_footer(text=f"Requested By {ctx.author}", icon_url=ctx.author.avatar_url)
@@ -126,12 +117,12 @@ class Emotes(commands.Cog):
             json.dump(src, f)
 
     @commands.command()
-    async def kiss(self, ctx):
+    async def kiss(self, ctx, member: discord.Member):
         value = random.randint(0, 0xffffff)
         meme = discord.Embed(
             colour=value,
             timestamp=datetime.datetime.utcnow(),
-            title="Kiss"
+            title=f"{ctx.author.display_name} Kissed {member.display_name}"
         )
         meme.set_image(url=choice(src3))
         meme.set_footer(text=f"Requested By {ctx.author}", icon_url=ctx.author.avatar_url)
@@ -152,12 +143,12 @@ class Emotes(commands.Cog):
             json.dump(src, f)
 
     @commands.command()
-    async def hug(self, ctx):
+    async def hug(self, ctx, member: discord.Member):
         value = random.randint(0, 0xffffff)
         meme = discord.Embed(
             colour=value,
             timestamp=datetime.datetime.utcnow(),
-            title="Hug"
+            title=f"{ctx.author.display_name} Hugged {member.display_name}"
         )
         meme.set_image(url=choice(src4))
         meme.set_footer(text=f"Requested By {ctx.author}", icon_url=ctx.author.avatar_url)
