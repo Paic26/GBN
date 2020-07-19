@@ -15,8 +15,8 @@
       <a href="https://github.com/Paic26/GenericBotName/master/LICENSE">
         <img src="https://img.shields.io/badge/license-unlicense-00d696.svg?style=for-the-badge" alt="Unlicense License">
       </a>
-      <a href="https://github.com/Paic26/GenericBotName/commits/master">
-        <img src=https://img.shields.io/badge/Commits%20-168/month-42a341.svg?style=for-the-badge&logo=Github">
+      <a href="https://paic26.github.io/GenericBotWebsite/">
+        <img src=https://img.shields.io/badge/Website%20-Here-42a341.svg?style=for-the-badge&logo=Github">
       </a>
      <br>
       <a href="https://discord.io/GenericBotName">
