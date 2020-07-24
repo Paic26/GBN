@@ -101,7 +101,7 @@ class Management(commands.Cog):
 
     @commands.command(aliases=['prefix'])
     async def change_prefix(self, ctx, prefix):
-        with open('./prefixes.json', 'r') as f:
+        with open('../json/prefixes.json', 'r') as f:
             prefixes = json.load(f)
 
         prefixes[str(ctx.guild.id)] = prefix
