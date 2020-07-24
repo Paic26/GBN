@@ -125,7 +125,34 @@ class Management(commands.Cog):
         await member.send(f"{ctx.author} sent this dm:\n\n {text}")
         print(f"{ctx.author} DMed {member}: {text}")
 
-
+    @commands.command(name='serverinfo', pass_context=True)
+    async def serverinfo(self, context):
+        if context.message.author.id in BLACKLIST:
+            embed = discord.Embed(title='You\'re blacklisted!', description='Ask the owner to remove from the list if it was unfair.', color=0x00FF00)
+            await context.message.channel.send(embed=embed)
+        else:
+            server = context.message.guild
+            roles = [x.name for x in server.roles]
+            role_length = len(roles)
+            if role_length > 50:
+                roles = roles[:50]
+                roles.append('>>>> Displaying[50/%s] Roles' % len(roles))
+            roles = ', '.join(roles)
+            channelz = len(server.channels)
+            time = str(server.created_at)
+            time = time.split(' ')
+            time = time[0]
+            embed = discord.Embed(description='%s ' % (str(server)), title='**Server Name:**', color=0x00FF00)
+            embed.set_thumbnail(url=server.icon_url)
+            embed.add_field(name='__Owner__', value=str(server.owner) + '\n' + str(server.owner.id))
+            embed.add_field(name='__Server ID__', value=str(server.id))
+            embed.add_field(name='__Member Count__', value=str(server.member_count))
+            embed.add_field(name='__Text/Voice Channels__', value=str(channelz))
+            embed.add_field(name='__Roles (%s)__' % str(role_length), value=roles)
+            embed.set_footer(text='Created at: %s' % time)
+            await context.message.channel.send(embed=embed)
+        
+        
 def setup(bot):
     bot.add_cog(Management(bot))
     print('Management Loaded')
