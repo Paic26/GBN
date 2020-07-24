@@ -127,10 +127,6 @@ class Management(commands.Cog):
 
     @commands.command(name='serverinfo', pass_context=True)
     async def serverinfo(self, context):
-        if context.message.author.id in BLACKLIST:
-            embed = discord.Embed(title='You\'re blacklisted!', description='Ask the owner to remove from the list if it was unfair.', color=0x00FF00)
-            await context.message.channel.send(embed=embed)
-        else:
             server = context.message.guild
             roles = [x.name for x in server.roles]
             role_length = len(roles)
