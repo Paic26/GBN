@@ -94,7 +94,15 @@ class Moderation(commands.Cog):
             if message.content.count(word) > 0:
                 await message.channel.purge(limit=1)
 
-        #errors
+    @commands.command(aliases=["send"])
+    @commands.has_permissions(manage_messages=True)
+    @commands.bot_has_permissions(manage_messages=True)
+    async def say(self, ctx, channel: discord.TextChannel = None, *, content: str):
+        channel = channel if channel else ctx.channel
+        await ctx.message.delete()
+        await channel.send(content)   
+    
+    #errors
 
     @kick.error
     async def kick_error(self, ctx, error):
