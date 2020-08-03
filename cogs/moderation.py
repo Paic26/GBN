@@ -28,7 +28,7 @@ class Moderation(commands.Cog):
     async def ban(self, ctx, member: discord.Member, *, reason=None):
         await member.ban(reason=reason)
         await ctx.send(f'Banned {member.mention}')
-        print(f'{member} was Banned from a server')
+        print(f'{member} was Banned from a server for : {reason}')
 
     @commands.command()
     @commands.has_permissions(ban_members=True)
