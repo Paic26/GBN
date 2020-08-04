@@ -15,7 +15,7 @@ def get_prefix(client, message):
 bot = commands.Bot(command_prefix = get_prefix, case_insensitive=True)
 Bot = discord.client
 client = bot
-status = cycle(['Minecraft', '#Free Kekistan', '<prefix>help For Help'])
+status = cycle(['Preset Prefix = _', '#Free Kekistan', '<prefix>help For Help'])
 client.remove_command('help')
 
 class Startup(commands.Cog):
