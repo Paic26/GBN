@@ -138,13 +138,13 @@ async def uptime(ctx):
 @bot.command(pass_context=True)
 async def poll(context, *args):
 	mesg = ' '.join(args)
-		await context.message.delete()
-		embed = discord.Embed(title='We have a poll !', description='{0}'.format(mesg), color=0x00FF00)
-		embed.set_footer(text='Poll created by: {0} • React to vote!'.format(context.message.author))
-		embed_message = await context.message.channel.send(embed=embed)
-		await embed_message.add_reaction( '👍')
-		await embed_message.add_reaction('👎')
-		await embed_message.add_reaction('🤷')
+	await context.message.delete()
+	embed = discord.Embed(title='We have a poll !', description='{0}'.format(mesg), color=0x00FF00)
+	embed.set_footer(text='Poll created by: {0} • React to vote!'.format(context.message.author))
+	embed_message = await context.message.channel.send(embed=embed)
+	await embed_message.add_reaction( '👍')
+	await embed_message.add_reaction('👎')
+	await embed_message.add_reaction('🤷')
         
         
 bot.run(os.environ['DISCORD_TOKEN'])
