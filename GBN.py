@@ -138,7 +138,7 @@ async def uptime(ctx):
 @bot.command(pass_context=True)
 async def poll(ctx, *args):
 	mesg = ' '.join(args)
-	await message.delete()
+	await ctx.message.delete()
 	embed = discord.Embed(title='We have a poll !',
 			      description='{0}'.format(mesg),
 			      color=0x00FF00)
