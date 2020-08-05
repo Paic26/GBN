@@ -30,7 +30,7 @@ class RedditRandomImage(commands.Cog):
     @commands.command()
     async def e(self, ctx, message):
         elephant_gif = self.reddit.subreddit("memes").random().url
-        await ctx.send(elephant_gif)
+        await ctx.send(f"{elephant_gif}")
 
 
 def setup(bot):
