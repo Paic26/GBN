@@ -17,7 +17,7 @@ class RedditRandomImage(commands.Cog):
     @commands.command()
     async def random(self, ctx, subreddit_name: str):
         try:
-            img_request = self.reddit.subreddit(subreddit_name).random().url
+            img_request = self.reddit.subreddit('memes').random().url
             value = random.randint(0, 0xffffff)
             response = discord.Embed(color=value)
             response.set_image(url=img_request)
