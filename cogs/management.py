@@ -80,7 +80,7 @@ class Management(commands.Cog):
             colour=discord.Colour.purple(),
             title="Website"
         )
-        embed.add_field(name="website in development", value="[Website Link]()")
+        embed.add_field(name="Check out all the commands", value="[Website Link](https://paic26.github.io/GenericBotWebsite/index.html)")
         await ctx.send(embed=embed)
 
     @commands.command()
@@ -117,13 +117,6 @@ class Management(commands.Cog):
         await ctx.message.delete()
         await member.send(f"{ctx.author} sent this dm:\n\n {text}")
         print(f"{ctx.author} DMed {member}: {text}")        
-
-        
-    @commands.command(aliases=["pm"])
-    async def dm(self, ctx, member: discord.Member, *, text):
-        await ctx.message.delete()
-        await member.send(f"{ctx.author} sent this dm:\n\n {text}")
-        print(f"{ctx.author} DMed {member}: {text}")
 
     @commands.command(name='serverinfo', pass_context=True)
     async def serverinfo(self, context):
