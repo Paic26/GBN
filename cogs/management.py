@@ -80,7 +80,7 @@ class Management(commands.Cog):
             colour=discord.Colour.purple(),
             title="Website"
         )
-        embed.add_field(name="Check out all the commands", value="[Website Link](https://paic26.github.io/GenericBotWebsite/index.html)")
+        embed.add_field(name="Check out all the commands", value="[Website Link](https://paic26.github.io/GenericBotWebsite)")
         await ctx.send(embed=embed)
 
     @commands.command()
