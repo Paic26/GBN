@@ -1,0 +1,6 @@
+discord
+pip
+certifi
+beautifulsoup4
+requests
+praw
