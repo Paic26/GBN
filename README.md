@@ -9,7 +9,7 @@
         <img src="https://img.shields.io/badge/Made%20With-Python%203.7-blue.svg?style=for-the-badge&logo=Python" alt="Made with Python 3.7">
       </a>
       <a href="https://heroku.com">
-        <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
+        <img src="https://img.shields.io/badge/deployed_on-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
       </a>
     <br>
       <a href="https://github.com/Paic26/GenericBotName/master/LICENSE">
