@@ -1,1 +1,0 @@
-worker: python GBN.py
