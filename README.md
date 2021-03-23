@@ -31,7 +31,7 @@
 <h2 align="center"> Features: </h2>
 <p align="center">
  &bull;Welcome Message(<em>+ add role</em>) <br>
- &bull;Website in development <br>
+ &bull;Website <br>
  &bull;Changing Status <br>
  &bull;Stats & Uptime <br>
  &bull;Invite link <br>
